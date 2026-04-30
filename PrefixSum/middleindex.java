@@ -13,12 +13,12 @@ public class middleindex {
 
         int n = nums.length;
 
-        // Step 1: calculate total sum
+        
         for (int i = 0; i < n; i++) {
             totalSum += nums[i];
         }
 
-        // Step 2: find middle index
+    
         for (int i = 0; i < n; i++) {
             int rightSum = totalSum - leftSum - nums[i];
 
